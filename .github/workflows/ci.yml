@@ -17,6 +17,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install
+        run: pip install flask
       - name: Run tests
         run: pytest
